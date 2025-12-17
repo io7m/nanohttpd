@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<parent>
 		<artifactId>nanohttpd-project</artifactId>
-		<groupId>org.nanohttpd</groupId>
+		<groupId>com.io7m.nanohttpd</groupId>
 		<version>3.0.0-palace0001</version>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
@@ -12,7 +12,7 @@
   <description>NanoHttpd is a light-weight HTTP server designed for embedding in other applications.</description>
 	<dependencies>
 		<dependency>
-			<groupId>org.nanohttpd</groupId>
+			<groupId>com.io7m.nanohttpd</groupId>
 			<artifactId>nanohttpd</artifactId>
 			<version>3.0.0-palace0001</version>
 			<scope>provided</scope>
