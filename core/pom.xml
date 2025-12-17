@@ -3,11 +3,13 @@
 	<parent>
 		<groupId>org.nanohttpd</groupId>
 		<artifactId>nanohttpd-project</artifactId>
-		<version>2.3.2-SNAPSHOT</version>
+		<version>3.0.0-palace0001</version>
 	</parent>
 	<artifactId>nanohttpd</artifactId>
 	<packaging>jar</packaging>
 	<name>NanoHttpd-Core</name>
+  <url>http://www.nanohttpd.org</url>
+  <description>NanoHttpd is a light-weight HTTP server designed for embedding in other applications.</description>
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
